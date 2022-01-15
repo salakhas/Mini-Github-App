@@ -1,5 +1,5 @@
-import navbar  from "./navbar.js";
-import getUser from "./getUser.js";
+import navbar from "/components/navbar.js";
+import getUser from "/components/getUser.js";
 
 let navBarContainer = document.getElementById('navBarContainer');
 navBarContainer.innerHTML = navbar();
