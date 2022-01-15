@@ -21,4 +21,5 @@ This is a mini GitHub application that I created as an individual project!
 ##APIs used
  1. https://api.github.com/users
 
-Please do check out my mini GitHub Application !
+Please do check out my mini GitHub Application by clicking on the link below!
+https://trusting-wiles-2acce7.netlify.app
