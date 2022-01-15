@@ -21,4 +21,4 @@ This is a mini GitHub application that I created as an individual project!
 ##APIs used
  1. https://api.github.com/users
 
-Please do check out mu mini GitHub Application !
+Please do check out my mini GitHub Application !
