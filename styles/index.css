@@ -1,0 +1,122 @@
+body{
+    background-color: #090b0f;
+    color: white;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#main{
+    display: grid;
+    width: 97.5%;
+    height: 470px;
+    padding: 5px;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+}
+#main > div{
+    box-shadow: rgba(96, 96, 161, 0.25) 0px 2px 5px -1px,rgba(122, 122, 122, 0.3) 0px 1px 3px -1px;
+}
+#rep_btn{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:6px;
+    padding-bottom: 10px;
+    margin: 15px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(33,38,45);
+    color: #C9D1D9;
+    border: 0px;
+    border-radius: 10px;
+}
+#rep_btn:hover{
+    background-color: #3e4349;
+}
+#repo_div{
+    width: 95%;
+    height: 380px;
+    margin: auto;
+    overflow: scroll;
+    box-shadow: rgba(102, 102, 102, 0.4) 0px 2px 4px, rgba(80, 80, 80, 0.3) 0px 7px 13px -3px, rgba(43, 43, 43, 0.2) 0px -3px 0px inset;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #090b0f; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .innerDiv{
+      width: 90%;
+      padding: 5px;
+      height: 100px;
+      margin: auto;
+      margin-bottom: 30px;
+      box-shadow: rgba(158, 158, 158, 0.4) 0px 2px 4px, rgba(110, 110, 110, 0.3) 0px 7px 13px -3px, rgba(80, 80, 80, 0.2) 0px -3px 0px inset;
+  }
+  .innerDiv:nth-child(1){
+      margin-top: 10px;
+  }
+  .endBoxes{
+      width: 100px;
+      height: 30px;
+      border: 1px solid #343c47;
+      float: right;
+      margin-top: 15px;
+      background-color: #21262D;
+      border-radius: 5px;
+      display: grid;
+      grid-template-columns: 70% 30%;
+  }
+  .endBoxes > div:nth-child(1){
+      height: 30px;
+    border-right: 1px solid #343c47;
+  }
+
+  .star{
+      margin-top: 6px;
+      margin-left: 5px;
+  }
+  .starPara{
+      margin-top:4px;
+      margin-left: 5px;
+  }
+  .arrow{
+      margin-top: 6px;
+      margin-left: 9px;
+  }
+  .circle{
+      font-size: 10px;
+      margin-top: 15px;
+      margin-left: 10px;
+      color: olive;
+  }
+  .paras{
+      margin-top: 10px;
+      font-size: 13px;
+      margin-right: 30px;
+      color: rgb(153, 153, 153);
+  }
+
+  .branches{
+    margin-top: 8px;
+  }
+
+  #creationDateDiv{
+    margin-left: 10px;
+  }
+  

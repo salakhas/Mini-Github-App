@@ -1,0 +1,48 @@
+#navbar{
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    margin: -8px;
+}
+.imgs{
+    height: 60px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+#profile{
+    margin-left:38%;
+    margin-top: 15px;
+}
+#profile-img{
+    width: 47px;
+    border-radius: 50%;
+    height: 80%;
+}
+#list{
+    display: flex;
+    column-gap:15px;
+    margin-top: 25px;
+    
+}
+
+#list> li{
+    width: 100px;
+}
+#list> li:nth-child(2){
+    width: 50px;
+}
+#search_input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#main{
+    margin-top: 20px;
+}

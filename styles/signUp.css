@@ -1,0 +1,47 @@
+body{
+    background-color: #090b0f;
+    color: white;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#containers{
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    box-shadow: rgba(96, 96, 161, 0.25) 0px 2px 5px -1px,rgba(122, 122, 122, 0.3) 0px 1px 3px -1px;
+}
+.signUpheading{
+    text-align: center;
+}
+.form{
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap:24px;
+}
+
+.form > input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.form > input:nth-child(1){
+    margin-top: 10px;
+}
+
+.form > input:last-child{
+    background-color: #21262D;
+    color: white;
+}
+
+.form > input:last-child:hover{
+    background-color: #323944;
+}
+.login{
+    background-color: #21262D;
+    color: white;
+}
