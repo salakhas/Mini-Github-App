@@ -2,21 +2,25 @@
 This is a mini GitHub application that I created as an individual project!
 
 ## Pages Build
- 1.Landing page.
- 2.Explore page.
+ 1. Landing page.<br/><br/>
+ 2. Explore page.<br/>
 
+## Tech Stack
+1. HTML<br/><br/>
+2. CSS<br/><br/>
+3. JavaScript DOM<br/>
 
 ## Layouts
- 1.Grid
- 2.Flex
+ 1. Grid<br/><br/>
+ 2. Flex<br/>
 
 ## DOM-Events & Attributes
- 1.addEventListener()
- 2.getElementById()
+ 1. addEventListener()<br/><br/>
+ 2. getElementById()<br/>
 
 ## ES6 features
- 1.Arrow functions
- 2.Import Export features
+ 1. Arrow functions<br/><br/>
+ 2. Import Export features<br/>
 
 ##APIs used
  1. https://api.github.com/users
